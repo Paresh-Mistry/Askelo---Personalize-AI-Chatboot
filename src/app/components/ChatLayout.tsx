@@ -50,7 +50,7 @@ export default function ChatLayout() {
         } catch (err) {
             const errorMessage = [
                 ...newMessages,
-                { role: 'ai', content: '⚠️ Failed to connect to AI server.' },
+                { role: 'ai', content: 'Failed to connect to AI server.' },
             ];
 
             setMessagesForTab(selectedTab.id, errorMessage);

@@ -1,4 +1,3 @@
-// src/app/components/Sidebar.tsx
 'use client';
 
 import { useState, useEffect, ReactNode } from 'react';
