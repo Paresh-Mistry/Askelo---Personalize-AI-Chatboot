@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Askelo – AI Chatbot for Cointab Assignment
 
-## Getting Started
+**Askelo** is a personalized AI-powered chatbot built with **Next.js**, **TinyLLaMA via Ollama**, and **Radix UI**. It supports **multi-tab conversations**, allowing users to manage, rename, and delete chats. This project was developed for the **Cointab assignment**.
 
-First, run the development server:
+---
+## ✨ Features
+
+- 🧠 Chat with a local LLM (TinyLLaMA) using Ollama
+- ➕ **Create new chat tabs** dynamically
+- ✏️ **Rename** existing chat tabs for personalization
+- ❌ **Delete** conversations individually
+- 💾 **Store messages** per tab (in-memory context state)
+- 🔄 Realtime **AI response** with loader animation
+- 💬 Sleek chat interface using Radix UI components
+- 🌗 Fully responsive with light/dark mode support
+
+---
+
+## 📹 Demo Video
+
+> Watch the working demo of the project:
+
+### ▶️ Click to Watch - [Assignment Video](https://drive.google.com/file/d/1n5r3gh1eFuI4vo67AKsfxfkYRUNALonQ/view?usp=drive_link)
+ 
+ ---
+
+## 🚀 Tech Stack
+
+![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
+![TinyLLaMA](https://img.shields.io/badge/TinyLLaMA-AI-blue?style=for-the-badge)
+
+---
+
+
+
+
+## ⚙️ Setup & Run
+
+### 1. Ollama Installation 
+
+> Download Ollama - https://ollama.com 
+
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+ollama pull genma:2b
+ollama run genma:2b
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Clone the Repo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+git clone https://github.com/yourname/askelo-chatbot.git
+```
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+cd askelo-chatbot
+bun install 
+bun dev
+```
