@@ -30,7 +30,7 @@ export default function ChatLayout() {
         const newMessages = [...messages, { role: 'user', content: currentQuery }];
         setMessagesForTab(selectedTab.id, newMessages);
         setQuery('');
-        setLoading(true); // ✅ Show loader
+        setLoading(true); 
 
         try {
             const res = await fetch('/api/ollama', {
@@ -55,7 +55,7 @@ export default function ChatLayout() {
 
             setMessagesForTab(selectedTab.id, errorMessage);
         } finally {
-            setLoading(false); // ✅ Hide loader after AI response
+            setLoading(false);
         }
     };
 
