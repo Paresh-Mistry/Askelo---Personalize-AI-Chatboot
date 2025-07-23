@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                model: process.env.OLLAMA_MODEL , // exact model name used in `ollama list`
+                model: 'tinyllama' , // exact model name used in `ollama list`
                 prompt,
                 stream: false,
             }),
