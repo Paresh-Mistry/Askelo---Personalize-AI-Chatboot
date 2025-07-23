@@ -1,4 +1,6 @@
-# Askelo – AI Chatbot for Cointab Assignment
+# Askelo – AI Chatbot 
+
+> Cointab Assignment 
 
 **Askelo** is a personalized AI-powered chatbot built with **Next.js**, **TinyLLaMA via Ollama**, and **Radix UI**. It supports **multi-tab conversations**, allowing users to manage, rename, and delete chats. This project was developed for the **Cointab assignment**.
 
