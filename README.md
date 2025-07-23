@@ -30,7 +30,7 @@
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge)
-![TinyLLaMA](https://img.shields.io/badge/TinyLLaMA-AI-blue?style=for-the-badge)
+![TinyLLaMA](https://img.shields.io/badge/Genma-AI-blue?style=for-the-badge)
 
 ---
 
