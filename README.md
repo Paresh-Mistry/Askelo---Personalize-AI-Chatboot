@@ -7,7 +7,7 @@
 ---
 ## ✨ Features
 
-- 🧠 Chat with a local LLM (TinyLLaMA) using Ollama
+- 🧠 Chat with a local LLM using Ollama
 - ➕ **Create new chat tabs** dynamically
 - ✏️ **Rename** existing chat tabs for personalization
 - ❌ **Delete** conversations individually
